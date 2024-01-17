@@ -2,8 +2,11 @@ import numpy
 
 
 def show(m: str, o: numpy.ndarray):
+    print("--" * 10)
     print(m, f"shape: {o.shape}, dtype: {o.dtype}")
+    print("--" * 10)
     print(o)
+    print("--" * 10)
 
 
 def main():
